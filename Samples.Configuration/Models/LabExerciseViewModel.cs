@@ -8,5 +8,7 @@ namespace Samples.Configuration.Models
     public class LabExerciseViewModel
     {
         public string Message { get; set; }
+
+        public string BackgroundColor { get; set; }
     }
 }

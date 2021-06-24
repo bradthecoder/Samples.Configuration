@@ -31,7 +31,8 @@ namespace Samples.Configuration.Controllers
             LabExerciseViewModel model = new LabExerciseViewModel();
 
             //TODO: populate model with environment message from configuration
-
+            model.Message = _configuration.GetValue<string>("SampleApp:Settings:EnvironmentMesssage");
+            model.BackgroundColor = _configuration.GetValue<string>("SampleApp:Settings:BackgroundColor");
 
             return View(model);
         }

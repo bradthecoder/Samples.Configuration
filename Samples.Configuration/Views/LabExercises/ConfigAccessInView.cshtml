@@ -1,13 +1,17 @@
 ﻿@* Implement using statements and DI here... *@
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
 
 @{
     ViewData["Title"] = "Access Configuration from a View";
+    string bgColor = Configuration.GetValue<string>("SampleApp:Settings:BackgroundColor");
+    string message = Configuration.GetValue<string>("SampleApp:Settings:EnvironmentMesssage");
 }
 
 <style>
     body {
         /* uncomment the line below and load the value from the config file using hierarchy */
-        /* background-color: [load config value here] */
+        background-color: @bgColor;
     }
 </style>
 
@@ -15,5 +19,5 @@
 <div>
     <p>The message from the config file is displayed below.</p>
     <br />
-    @*<p>Display config value here...</p>*@
+    <p>@message</p>
 </div>

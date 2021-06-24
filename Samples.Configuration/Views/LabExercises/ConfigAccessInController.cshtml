@@ -1,0 +1,17 @@
+﻿@model LabExerciseViewModel
+@{
+    ViewData["Title"] = "Access Configuration from a Controller and Model";
+}
+
+<style>
+    body {
+        /* uncomment the line below and load the value from the config file using hierarchy */
+        /* background-color: [load config value here] */
+    }
+</style>
+
+<div>
+    <p>The message from the config file is displayed below.</p>
+    <br />
+    <p>@Model.Message</p>
+</div>

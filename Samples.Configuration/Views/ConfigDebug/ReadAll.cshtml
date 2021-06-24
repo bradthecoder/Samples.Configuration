@@ -1,0 +1,15 @@
+﻿@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+@{
+    ViewData["Title"] = "Read All Configuration";
+}
+
+<div class="text-center">
+    <h1 class="display-5">Read All Configuration</h1>
+
+</div>
+
+@foreach (var c in Configuration.AsEnumerable())
+{
+    <p>@c.Key = @c.Value</p>
+}

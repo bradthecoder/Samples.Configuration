@@ -1,0 +1,14 @@
+﻿@model List<string>
+@{
+    ViewData["Title"] = "Providers";
+}
+
+<div class="text-center">
+    <h1 class="display-5">Providers</h1>
+
+</div>
+
+@foreach (var provider in Model)
+{
+    <p>@provider.ToString()</p>
+}

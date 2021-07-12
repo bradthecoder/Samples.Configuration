@@ -11,7 +11,7 @@ The Config Providers link will display all of the registered configuraiton provi
 
 The Read All Configuration link will display all of the configuration values available to the application.
 
-Two labe exercises are included.
+Two lab exercises are included.
 
 ---
 
@@ -34,4 +34,4 @@ For more information, visit [Microsoft Docs - Configuration](https://docs.micros
 [![YouTube](https://bradthecoder.github.io/images/social/Youtube_32x32.png)](https://www.youtube.com/channel/UCTuzKuNSTcGibER64p-SGxA) 
 [![Twitter](https://bradthecoder.github.io/images/social/Twitter_32x32.png)](https://twitter.com/bradthecoder) 
 [![Linkedin](https://bradthecoder.github.io/images/social/Linkedin_32x32.png)](https://www.linkedin.com/in/bradthecoder/)
-[![Linkedin](https://bradthecoder.github.io/images/social/brad-the-coder_32x32.png)](https://bradthecoder.github.io/)
+[![www](https://bradthecoder.github.io/images/social/brad-the-coder_32x32.png)](https://bradthecoder.github.io/)
